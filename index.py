@@ -2,7 +2,9 @@ from src.appConfig import loadAppConfig
 import datetime as dt
 import argparse
 from src.curtailmentCalculator import calculateCurtailment
+import warnings
 
+warnings.simplefilter('ignore')
 appConfig = loadAppConfig()
 
 endDate = dt.datetime.now()

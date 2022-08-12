@@ -4,8 +4,9 @@ config.json
 .vscode
 intermediate_*
 config.json
-WBES_Files/
-NOAR_Files
+WBES_Derived_Files/
+WBES_Raw_Files/
+NOAR_Files/
 
 matplotlib-code.py
 plt.PNG
